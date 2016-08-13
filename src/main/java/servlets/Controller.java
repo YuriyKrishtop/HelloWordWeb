@@ -27,8 +27,6 @@ public class Controller extends HttpServlet {
         UserBean userBean = new UserBean();
         userBean.setName(name);
         userBean.setSurname(surname);
-//        req.setAttribute("name", name);
-//        req.setAttribute("surname", surname);
         req.getSession().setAttribute("user", userBean);
         req.getRequestDispatcher("page.jsp").forward(req, resp);
     }
