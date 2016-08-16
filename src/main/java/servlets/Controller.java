@@ -14,7 +14,7 @@ import java.io.PrintWriter;
  * Created by Iurii_Kryshtop on 8/11/2016.
  */
 
-@WebServlet("/servlet")
+//@WebServlet("/servlet")
 public class Controller extends HttpServlet {
 
     @Override
