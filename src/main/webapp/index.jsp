@@ -6,8 +6,8 @@
      </head>
      <body>
           <form action="${pageContext.request.contextPath}/servlet" method="post">
-                  <input type="text" name="name" />
-                  <input type="text" name="surname" />
+                  <input type="text" name="name" placeholder="name"/>
+                  <input type="text" name="surname" placeholder="surname" />
                   <input type="submit" />
           </form>
      </body>
