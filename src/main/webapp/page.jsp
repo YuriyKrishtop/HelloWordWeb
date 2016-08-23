@@ -5,6 +5,7 @@
         <title>title</title>
      </head>
      <body>
-          <p>Hello, dear ${user.name} ${user.surname}!!!</p>
+          <p>Hello, dear ${user.name} ${user.surname}!!!
+		  We are glad to see you!</p>
      </body>
 </html>
